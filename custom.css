@@ -116,7 +116,6 @@ header .logo {
 
 /* Trending section ends */
 
-
 /* Setting section starts */
 
 .settings-section {
@@ -127,6 +126,45 @@ header .logo {
 
 .settings-section .grid-container {
   font-size: 0px;
+}
+
+.settings-section .grid-container .card p {
+  font-size: 16px;
+}
+
+.settings-section .grid-container .card .image-container {
+  height: 88px;
+  width: 88px;
+  object-fit: contain;
+  padding: 16px;
+  border-radius: 50%;
+}
+
+.settings-section .grid-container .card .image-container.red {
+  background: #ee6880;
+}
+
+.settings-section .grid-container .card .image-container.blue {
+  background: #325dff;
+}
+
+.settings-section .grid-container .card .image-container img {
+  width: 100%;
+  height: 100%;
+}
+
+.view-product-section {
+  padding: 0px 1rem;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.view-product-section .view-product-grid {
+  font-size: 0px;
+}
+
+.view-product-section .view-product-grid p {
+  font-size: 16px;
 }
 
 /* to be removed later */
