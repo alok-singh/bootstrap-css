@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bootstrap Static Page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="libs/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="custom.css" />
+    <script src="libs/js/jquery.min.js"></script>
+    <script src="libs/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="img/Logo.png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end text-right" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">HOME <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#">DISCOVERY</a>
+            <a class="nav-item nav-link" href="#">PHOTOS</a>
+            <a class="nav-item nav-link" href="#">CONTACT</a>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section>
+      <div id="carouselExampleIndicators" class="carousel slide hero-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(img/na3.jpg)">
+            <div class="carousel-content">
+              <div class="carousel-content-wrapper">
+                <h1 class="text-white font-weight-bold">xercitation lorem ullamco laboris nisi ut aliquip</h1>
+                <p class="text-white font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/vac3.jpg)">
+            <div class="carousel-content">
+              <div class="carousel-content-wrapper">
+                <h1 class="text-white font-weight-bold">xercitation lorem ullamco laboris nisi ut aliquip</h1>
+                <p class="text-white font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/na2.jpg)">
+            <div class="carousel-content">
+              <div class="carousel-content-wrapper">
+                <h1 class="text-white font-weight-bold">xercitation lorem ullamco laboris nisi ut aliquip</h1>
+                <p class="text-white font-italic">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="trending-section">
+        <!--Carousel Wrapper-->
+        <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+          <div class="d-flex justify-content-between align-items-center">
+            <h2>TRENDING</h2>
+            <!--Controls-->
+            <div class="controls-top">
+              <a href="#multi-item-example" data-slide="prev">
+                <img class="btn-icon" src="img/arrow_back.png" />
+              </a>
+              <a href="#multi-item-example" data-slide="next">
+                <img class="btn-icon" src="img/arrow_next.png" />
+              </a>
+            </div>
+            <!--/.Controls-->
+          </div>
+
+          <!--Slides-->
+          <div class="carousel-inner" role="listbox">
+            <!--First slide-->
+            <div class="carousel-item active">
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/city.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Dolore magna aliqua</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/street.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Morbi eleifend a libero</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/road.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Morbi eleifend a libero</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.First slide-->
+
+            <!--Second slide-->
+            <div class="carousel-item">
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/road.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Morbi eleifend a libero</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/city.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Morbi eleifend a libero</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 d-inline-block">
+                <div class="card mb-2">
+                  <img class="card-img-top" src="img/street.jpeg" alt="Card image cap" />
+                  <div class="card-body">
+                    <h4 class="card-title">Morbi eleifend a libero</h4>
+                    <p class="card-text font-weight-light text-muted">
+                      lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.Second slide-->
+          </div>
+          <!--/.Slides-->
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="happening-now-section container">
+        <h2>HAPPENING NOW</h2>
+        <div class="row">
+          <div class="col-8">
+            <div class="position-relative mb-md-4">
+              <img alt="" src="img/na2.jpg" />
+              <h5 class="overlay-title">CITY</h5>
+              <div class="overlay-description">
+                <h5>Large article title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                  Affert detraxit yoluptatum vis eu, inermis eloquentiam.
+                </p>
+              </div>
+            </div>
+            <div class="position-relative mb-md-4">
+              <img alt="" src="img/na2.jpg" />
+              <h5 class="overlay-title">TRAVEL</h5>
+              <div class="overlay-description">
+                <h5>Large article title</h5>
+                <p>
+                  Lorem ipsum dolor sit amet, in eam odio amet, vix id nullam detracto, vidit vituperatoribus duo id.
+                  Affert detraxit yoluptatum vis eu, inermis eloquentiam.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="mb-md-4">
+              <img class="mb-2" alt="" src="img/na3.jpg" />
+              <div class="font-weight-bold">Sample Headline</div>
+              <p class="font-weight-light text-muted">Small title</p>
+            </div>
+            <div class="mb-md-4">
+              <img class="mb-2" alt="" src="img/na3.jpg" />
+              <div class="font-weight-bold">Sample Headline</div>
+              <p class="font-weight-light text-muted">Small title</p>
+            </div>
+            <div>
+              <img class="mb-2" alt="" src="img/na3.jpg" />
+              <div class="font-weight-bold">Sample Headline</div>
+              <p class="font-weight-light text-muted">Small title</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="settings-section mt-5">
+        <h2 class="text-center mb-2">Lorem ipsum dolor sit</h2>
+        <p class="text-center font-weight-light text-muted mb-5">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.<br />Phasellus
+          tristique ullamcorper luctus.Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.
+        </p>
+        <div class="mt-5 grid-container">
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/redICON.png" alt="" /></span><span><img src="img/umbrella.png" alt="" /></span>
+              <div class="font-weight-bold">Sample Headline</div>
+              <p class="font-weight-light text-muted">Small title</p>
+							<h3>Peace of Mind</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/redICON.png" alt="" /></span><span><img src="img/coffee.png" alt="" /></span>
+              <h3>Coffee Breaks</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/redICON.png" alt="" /></span><span><img src="img/gift.png" alt="" /></span>
+              <h3>Rewards</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/blueICON.png" alt="" /></span><span><img src="img/box.png" alt="" /></span>
+              <h3>Delivery</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/blueICON.png" alt="" /></span><span><img src="img/inbox.png" alt="" /></span>
+              <h3>Inbox</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+          <div class="col-4 d-inline-block">
+            <div>
+              <span><img src="img/blueICON.png" alt="" /></span><span><img src="img/settings.png" alt="" /></span>
+              <h3>Settings</h3>
+              <p><br />lorem ipsum dolor sit amer, consectur adipising elit, sed do eiusmood tempor</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <h2>Lorem ipsum dolor sit</h2>
+        <h3>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices accumsan ornare.<br />Phasellus
+          tristique ullamcorper luctus.Nunc varius ullamcorper felis. Nulla nibh ipsum, rutrum.
+        </h3>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div src="">
+                    <div></div>
+                  </div>
+                  <div>
+                    <div>
+                      <h2>Lorem ipsum dolor sit amet, cctetur adpiscing elit.</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consectur adipiscing elit.<br />Cras ultried accumnsan
+                        ornanre.Phasellus trustique ullacorper luctus.
+                      </p>
+                      <a href="">VIEW OUR</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div>
+                    <div>
+                      <h2>Lorem ipsum dolor sit amet cing elit</h2>
+                      <p>
+                        Lorem ipsum dolor sit amet, consecteur adipscing elit.<br />Cras ultries accumasan ornanre.
+                        Phasellus tristique ullamcorper luctus.
+                      </p>
+                      <a href="">VIEW OUR</a>
+                    </div>
+                  </div>
+                  <div src="">
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <p>This area is footer.</p>
+      </div>
+    </footer>
+  </body>
+</html>

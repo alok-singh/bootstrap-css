@@ -1,0 +1,135 @@
+body {
+  background: #f6f8f9;
+}
+
+/* Header styles starts */
+header {
+  max-width: 1280px;
+  margin: auto;
+}
+
+header .logo {
+  height: 54px;
+  width: auto;
+}
+
+/* Header styles ends */
+
+/* Carousel styles starts */
+.hero-carousel {
+  height: 70vh;
+}
+
+.hero-carousel .carousel-inner {
+  height: 100%;
+}
+
+.hero-carousel .carousel-inner .carousel-item {
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-carousel .carousel-indicators {
+  justify-content: end;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1280px;
+  padding: 0px 1rem;
+}
+
+.hero-carousel .carousel-indicators li {
+  transform: skew(-50deg);
+  height: 5px;
+  width: 58px;
+}
+
+.hero-carousel .carousel-inner .carousel-item .carousel-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+  max-width: 1280px;
+  margin: auto;
+  padding: 0px 1rem;
+}
+
+.hero-carousel .carousel-inner .carousel-item .carousel-content .carousel-content-wrapper {
+  max-width: 400px;
+}
+
+/* Carousel styles ends */
+
+.trending-section {
+  max-width: 1280px;
+  margin: 32px auto;
+}
+
+.trending-section h2 {
+  padding: 0px 1rem;
+}
+
+.trending-section .carousel-item {
+  font-size: 0px;
+}
+
+.trending-section .carousel-item .card-text {
+  font-size: 1rem;
+}
+
+.trending-section .controls-top .btn-icon {
+  height: 16px;
+  width: auto;
+}
+
+.trending-section .controls-top {
+  margin-right: 1rem;
+}
+
+.trending-section .controls-top a:first-child {
+  margin-right: 16px;
+}
+
+.happening-now-section {
+  padding: 0px 1rem;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.happening-now-section .overlay-title {
+  color: #fff;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.happening-now-section .overlay-description {
+  color: #fff;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.happening-now-section img {
+  width: 100%;
+}
+
+/* Trending section ends */
+
+
+/* Setting section starts */
+
+.settings-section {
+  padding: 0px 1rem;
+  max-width: 1280px;
+  margin: auto;
+}
+
+.settings-section .grid-container {
+  font-size: 0px;
+}
+
+/* to be removed later */
+img {
+  max-width: 100%;
+}
