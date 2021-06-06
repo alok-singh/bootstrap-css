@@ -4,14 +4,14 @@ const cleanCSS = require('gulp-clean-css');
 
 gulp.task('minify-css', () => {
   return gulp
-    .src(['custom.css', 'libs/css/*.css'])
+    .src(['./custom.css', 'libs/css/*.css'])
     .pipe(cleanCSS({ compatibility: 'ie8' }))
-    .pipe(gulp.dest('dist/libs/css'));
+    .pipe(gulp.dest('dist/css'));
 });
 
 gulp.task('copy-libs', function() {
   return gulp.src('./libs/js/*.js')
-    .pipe(gulp.dest('dist/libs/js'));
+    .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('copy-images', function() {
