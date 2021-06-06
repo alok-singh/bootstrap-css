@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp minify-css minify-html copy-libs copy-images"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alok-singh/bootstrap-css.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alok-singh/bootstrap-css/issues"
+  },
+  "homepage": "https://github.com/alok-singh/bootstrap-css#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-htmlmin": "^5.0.1"
+  }
+}

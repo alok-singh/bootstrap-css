@@ -170,8 +170,3 @@ header .logo {
 .view-product-section .view-product-grid img {
   object-fit: cover;
 }
-
-/* to be removed later */
-img {
-  max-width: 100%;
-}
